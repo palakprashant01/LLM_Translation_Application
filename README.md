@@ -6,3 +6,5 @@ Features:
 3. Output Parsing: Implements output parsers to extract and format the model's responses effectively.
 4. LCEL Chaining: Demonstrates the chaining of components using LangChain Expression Language for streamlined processing.
 5. API Deployment: Provides a FastAPI-based server to expose the translation functionality as an API endpoint.
+
+We also manage the conversation history using trimmer, prompt templates, etc. These are required while buiding a chatbot to prevent conversations overflowing from the context window of the LLM.
