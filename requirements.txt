@@ -1,0 +1,8 @@
+langchain
+python-dotenv #import key value pairs in .env file
+langchain_groq
+langchain_core
+fastapi
+uvicorn
+langserve
+sse_starlette
